@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+
+body{
+    background-color: #005380;
+}
+
+.main{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    gap: 100px;
+}
+
+.logoFafiltec{
+    width: 8rem;
+    height: 8rem;
+}
+
+.main-title{
+    width: 93%;
+    color: white;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.title{
+    margin-top: 40px;
+}
+
+
+.boxes {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.box {
+    background-color: #fff;
+    margin: 5px;
+    padding: 15px 54px 10px 9px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.box>div:nth-child(2){
+    font-weight: 800;
+}
+
+.box i{
+   margin-bottom: 10px;
+}
+
+.button-orange{
+    background-color: #f1900e;
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-orange:hover{
+    background-color: #da7f08;
+}
+
+
+.span-bold{
+    font-weight: bold;
+}
+
+.fa-chalkboard-user, .fa-graduation-cap, .fa-calendar{
+    font-size: 30px;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left-text{
+    color: white;  
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.photo-main{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+.button-orange2{
+    background-color: #f1900e;
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 20%;
+    text-align: center;
+}
+
+.button-orange2:hover{
+    background-color: #da7f08;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 90px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .box2 {
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #005380;
+  }
+  
+  .box2 i {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .box2 p {
+    font-size: 20px;
+  }
+
+  .box2 h1{
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  .span-bold {
+    font-weight: bold;
+  }
+
+
+.info-container{
+    background-color: white;
+    color: #005380;
+    text-align: right;
+    padding: 90px 120px 0 90px;
+}
+
+.info-container h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.info-container-content{
+    background-color: white;
+    color: #005380;
+    display: flex;
+    padding: 90px;
+}
+
+.info-container-content-left{
+    font-size: 20px;
+    max-width: 50%;
+    padding: 30px;
+}
+
+.info-container-content-left h2{
+    margin-bottom: 10px;
+}
+
+
+.info-container-content-right{
+    background-color: #eee;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info-container-content-right h1{
+    font-weight: 400;
+}
+
+
+.info-container-content-right-date{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.info-container-content-right-price{
+    font-size: 40px;
+}
+
+.info-container-content-right-monthly{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.extra-bold{
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.button-orange3{
+    background-color: #f1900e;
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 19px;
+}
+
+.button-orange3:hover{
+    background-color: #da7f08;
+}
+
+.info-container2{
+    background-color: white;
+    color: #005380;
+    text-align: left;
+    padding: 90px 90px 0 90px;
+}
+
+.info-container2 h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .row2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .box3 {
+    width: 340px;
+    padding: 20px;
+}
+
+
+.container-info {
+    padding: 90px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: calc(50% - 20px);
+}
+
+.box-info {
+    margin: 30px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    position: relative;
+    border-radius: 20px;
+}
+
+.box-info li {
+    margin: 0;
+    text-align: right;
+    color: #969696;
+}
+
+.blue-box-info {
+    position: absolute;
+    top: -20px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 20px;
+    background-color:#005380;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.button-orange4{
+    position: absolute;
+    background-color: #f1900e;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    left: 38%;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-orange4:hover{
+    background-color: #da7f08;
+}
+
+.info-container3{
+    background-color: #005380;
+    color: white;
+    text-align: left;
+    padding: 90px 120px 0 90px;
+    margin-bottom: 30px;
+}
+
+.info-container3 h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.button-orange5{
+    background-color: #f1900e;
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 20%;
+    text-align: center;
+}
+
+.button-orange5:hover{
+    background-color: #da7f08;
+}
+
+.orange-area {
+    background-color:#f1900e;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.orange-area-btn1 {
+    background-color:#005380;
+    color:white;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    
+}
+
+.orange-area-btn2 {
+    background-color:white;
+    color:#005380;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.orange-area-btn1:hover{
+    background-color:#014264;
+}
+
+.orange-area-btn2:hover{
+    background-color:rgb(209, 209, 209);
+}
+
+
+.info-matriz2{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.form-container {
+    width: 800px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px auto;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .input-text {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .btn-inscrever {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #005380;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn-inscrever:hover {
+    background-color: #da7f08;
+  }
+
+
+  .form-checkbox {
+    display: inline-block;
+}
+
+.form-checkbox a{
+    color: #005380;
+}
+
+.form-checkbox a:hover{
+    color: #f1900e;
+}
+
+
+.text-container {
+    position: relative;
+    padding: 10px;
+    line-height: 1.5; 
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.text-container input:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #005380;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.text-container p {
+    margin-left: 30px; /* Espaço para o ícone */
+}
+
+
+/* RESPONSIVE MEDIA */
+
+@media (max-width: 1100px){
+    .main{
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .box{
+        padding: 15px 30px 10px 9px;
+    }
+
+    .button-orange{
+        margin: 0 auto;
+    }
+
+    .main-left{
+        text-align: center;
+    }
+
+    .photo-main{
+        width: 100%;
+    }
+
+    .row2{
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .container-info{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .container{
+        padding: 34px;
+    }
+
+    .column{
+        width: 100%;
+    }
+
+    .button-orange4{
+        position: relative;
+        max-width: 50%;
+        left: 23%;
+    }
+
+    .box3{
+        width: 100%;
+    }
+
+    .button-orange2{
+        max-width: 50%;
+    }
+
+    .form-container{
+        width: 83%;
+        padding: 25px;
+    }
+
+    .info-container{
+        padding: 30px;
+    }
+    
+    .info-container h1{
+        font-size: 35px;
+    }
+
+    .info-container-content{
+        flex-direction: column-reverse;
+        padding: 0;
+        align-items: center;
+    }
+
+    .info-container-content-left{
+        max-width: 100%;
+    }
+
+    .info-container-content-right{
+        margin: 30px;
+        padding: 39px;
+    }
+
+    .info-container2{
+        padding: 30px;
+    }
+
+    .info-container2 h1{
+        font-size: 35px;
+    }
+    
+    .info-container3 {
+        padding: 10px;
+    }
+
+
+    .info-container3 img{
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .info-container3 h1{
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .button-orange5{
+        max-width: 40%;
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .orange-area{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .logoFafiltec{
+        margin-left: 130px;
+    }
+
+    .main-left{
+        display: none;
+    }
+    
+    .main-left-mobile{
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1625px){
+    .main-left-mobile{
+        display: none;
+    }
+}
+
+@media (min-width: 500px){
+    .main-left-mobile{
+        display: none;
+    }
+}
+
+
+
